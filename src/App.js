@@ -1,9 +1,9 @@
 import React from "react";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
-import SelectToolPage from "Pages/SelectToolPage.js";
-import Panther from "Pages/Panther.js";
-import Cheetah from "Pages/Cheetah.js";
+import "@/App.css";
+import SelectToolPage from "@/Pages/SelectToolPage.js";
+import Panther from "@/Pages/Panther.js";
+import Cheetah from "@/Pages/Cheetah.js";
 
 function App() {
   return (
