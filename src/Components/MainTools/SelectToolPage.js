@@ -1,9 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function SelectToolPage() {
   return (
-    <div className="SelectToolPage" style={{ width: "0px", height: "0px" }}>
-      <h1>SelectToolPage is Born</h1>
+    <div className="SelectToolPage">
+      <Link to={`panther`}>
+        <a>Panther</a>
+      </Link>
+      <Link to={`cheetah`}>
+        <a>Cheetah</a>
+      </Link>
     </div>
   );
 }
