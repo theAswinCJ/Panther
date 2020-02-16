@@ -1129,11 +1129,6 @@
   resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-file-format-ts/-/sketch-file-format-ts-3.0.0.tgz#4f07cd375a9740152baf01996073e36f9d43673d"
   integrity sha512-m4Rg+QO02BQVqL9nJTVUb0VXjhev6PToxwH0YCAD9Ojk0YPeMrcz5IeNpppXdkZWtvPbzJJeyx+OQMVqA38SQg==
 
-"@sketch-hq/sketch-reference-files@^2.0.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-reference-files/-/sketch-reference-files-2.2.0.tgz#0f17863acbe1f8e0653910358fc016abae633546"
-  integrity sha512-wKDWxDJ7p3sMoN1QzD+BC2B7uKwNY0X+nzVqk1kxm8EC//bOBC32OQbPWYaANZBkvlZs735grumK4y2ehNCn/A==
-
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.2.0.tgz#dadcb6218503532d6884b210e7f3c502caaa44b1"
