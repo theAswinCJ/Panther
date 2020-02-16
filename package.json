@@ -2,7 +2,7 @@
   "name": "panther",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://theaswincj.github.io/Panther",
+  "homepage": "http://theaswincj.github.io/RiafyTools",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
