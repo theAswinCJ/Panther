@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/RiafyTools/static/css/main.d1b05096.chunk.css",
-    "main.js": "/RiafyTools/static/js/main.7ae232c8.chunk.js",
-    "main.js.map": "/RiafyTools/static/js/main.7ae232c8.chunk.js.map",
+    "main.css": "/RiafyTools/static/css/main.f72b2027.chunk.css",
+    "main.js": "/RiafyTools/static/js/main.c3e4c994.chunk.js",
+    "main.js.map": "/RiafyTools/static/js/main.c3e4c994.chunk.js.map",
     "runtime-main.js": "/RiafyTools/static/js/runtime-main.54299f51.js",
     "runtime-main.js.map": "/RiafyTools/static/js/runtime-main.54299f51.js.map",
     "static/js/2.b589ad6d.chunk.js": "/RiafyTools/static/js/2.b589ad6d.chunk.js",
     "static/js/2.b589ad6d.chunk.js.map": "/RiafyTools/static/js/2.b589ad6d.chunk.js.map",
     "index.html": "/RiafyTools/index.html",
-    "precache-manifest.17a59b518aae4a05f02c6dd82ad62137.js": "/RiafyTools/precache-manifest.17a59b518aae4a05f02c6dd82ad62137.js",
+    "precache-manifest.fbd023b2fe67593df81dbbbae1e39988.js": "/RiafyTools/precache-manifest.fbd023b2fe67593df81dbbbae1e39988.js",
     "service-worker.js": "/RiafyTools/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/RiafyTools/static/css/main.d1b05096.chunk.css.map",
+    "static/css/main.f72b2027.chunk.css.map": "/RiafyTools/static/css/main.f72b2027.chunk.css.map",
     "static/js/2.b589ad6d.chunk.js.LICENSE.txt": "/RiafyTools/static/js/2.b589ad6d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.54299f51.js",
     "static/js/2.b589ad6d.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.7ae232c8.chunk.js"
+    "static/css/main.f72b2027.chunk.css",
+    "static/js/main.c3e4c994.chunk.js"
   ]
 }
