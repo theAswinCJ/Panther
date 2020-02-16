@@ -12,6 +12,11 @@ function Panther() {
   console.log("SketchFile createNewSketchFile", createNewSketchFile);
   console.log("SketchFile generateId", generateId);
 
+  // readSketchFile(filePath); 1 parameter
+  // writeSketchFile(sketchFileToWrite, filePath); 2 parameters
+  // createNewSketchFile(version) ; 1 parameter
+  // generateId(); 0 parameters from what i saw
+
   return (
     <div className="Panther" style={{ width: "0px", height: "0px" }}>
       <h1>Panther is Born</h1>
