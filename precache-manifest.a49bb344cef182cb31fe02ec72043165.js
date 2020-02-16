@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e17c34b16d518790a0382fe4bd9a07f0",
+    "revision": "a46008612ee9419709d074bfd6318371",
     "url": "/RiafyTools/index.html"
   },
   {
-    "revision": "406f23e0eed912aefc6b",
+    "revision": "bb8e105323ee6ded417d",
     "url": "/RiafyTools/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RiafyTools/static/js/2.b2cf0ba2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "406f23e0eed912aefc6b",
-    "url": "/RiafyTools/static/js/main.51f60fbb.chunk.js"
+    "revision": "bb8e105323ee6ded417d",
+    "url": "/RiafyTools/static/js/main.d6b31362.chunk.js"
   },
   {
     "revision": "3a96f5c616ff15803cbe",
