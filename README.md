@@ -1,4 +1,3 @@
 Panther.
 
-[git add .
-This is an experimental project for Riafy. All Rights Reserved.]
+[This is an experimental project for Riafy Technologies. All Rights Reserved.]
