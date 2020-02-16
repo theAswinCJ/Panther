@@ -1,11 +1,16 @@
 import React from "react";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
-import Panther from "./Components/MainTools/Panther.js";
+import SelectToolPage from "./Components/MainTools/SelectToolPage.js";
 
 function App() {
   return (
     <div className="App">
-      <Panther />
+      <Router>
+        <Switch>
+          <Route exact path={"/"} component={SelectToolPage} />
+        </Switch>
+      </Router>
     </div>
   );
 }
