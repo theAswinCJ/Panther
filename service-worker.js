@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/RiafyTools/precache-manifest.964b9dbeeab4f505e5df01ae3f3f4312.js"
+  "/RiafyTools/precache-manifest.17a59b518aae4a05f02c6dd82ad62137.js"
 );
 
 self.addEventListener('message', (event) => {
