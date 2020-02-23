@@ -1,10 +1,6 @@
-import React from "react";
-import {
-  readSketchFile,
-  writeSketchFile,
-  createNewSketchFile,
-  generateId
-} from "sketch-file";
+import React, { useState } from "react";
+import axios from "axios";
+import { createNewSketchFile, generateId } from "sketch-file";
 
 function Panther() {
   // VERIFY IF IMPORTS WORK
@@ -15,24 +11,67 @@ function Panther() {
 
   /*-------------------------------------------------------------------------------------------
                         DOCUMENTATION
+
+  // createNewSketchFile(version) ; 1 parameter
   // readSketchFile(filePath); 1 parameter
   // writeSketchFile(sketchFileToWrite, filePath); 2 parameters
-  // createNewSketchFile(version) ; 1 parameter
   // generateId(); 0 parameters from what i saw
+  -------------------------------------------------------------------------------------------*/
+
+  /*-------------------------------------------------------------------------------------------
+                        DOCUMENTATION
+
+  // createNewSketchFile(version) ; MODE 1 -> No need server side help
+  // readSketchFile(filePath); MODE 2
+  // writeSketchFile(sketchFileToWrite, filePath); MODE 3
+  // generateId(); MODE 4 -> No need server side help
   -------------------------------------------------------------------------------------------*/
 
   // CREATE NEW FILE -> WORKS
   let newPanther = createNewSketchFile(62);
 
-  // READ A FILE
+  let hardcodePanther;
+
+  // // READ A FILE
   // let readpath = "./panther.sketch";
   // let newFile = readSketchFile(readpath);
   // console.log("SketchFile panther", newFile);
 
+  // let [fileReadFromServer, setFileReadFromServer] = useState();
+
+  const getFile = async () => {
+    let readFile = (
+      await axios.get("http://localhost:5000/", {
+        params: {
+          mode: 2,
+          pathFromRoot: "./src/SketchFiles/panther.sketch"
+        }
+      })
+    ).data;
+    console.log("ServerOutput READ", readFile);
+    alert(readFile);
+  };
+
+  const writeFile = async () => {
+    let writeFileStatus = (
+      await axios.post("http://localhost:5000/", {
+        mode: 3,
+        pathFromRoot: "./src/SketchFiles/Written/new.sketch",
+        fileToWrite: newPanther
+      })
+    ).data;
+    console.log("ServerOutput WRITE", writeFileStatus);
+  };
+
+  // getFile();
+  writeFile();
+  // if (fileReadFromServer) writeFile(fileReadFromServer);
+
+  // writeFile(newPanther);
   // WRITE A FILE
-  let writepath = "./Newpanther2";
-  writeSketchFile(newPanther, writepath);
-  console.log("SketchFile panther written");
+  // let writepath = "./Newpanther2";
+  // writeSketchFile(newPanther, writepath);
+  // console.log("SketchFile panther written");
 
   // GENERATE ID
   // let newid = generateId();
