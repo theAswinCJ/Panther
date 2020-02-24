@@ -12,7 +12,7 @@ app.use(cors("*"));
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // parse application/json
-app.use(bodyParser.json());
+app.use(bodyParser.json({ limit: "500mb" }));
 
 function isEmpty(obj) {
   return Object.keys(obj).length === 0;
